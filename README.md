@@ -17,5 +17,5 @@ cd mini-farm-stock
 cd backend
 pip install -r requirements.txt
 
-# Rode o servidor Flask
+# Agora rode o servidor Flask
 python app.py
