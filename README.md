@@ -1,6 +1,6 @@
 # 🌿 Mini Farm Stock
 
-**Sistema simples de controle de estoque agrícola**, desenvolvido como parte de um projeto de residência em TI.
+**Sistema simples de controle de estoque agrícola**.
 
 ## 🎯 Objetivo
 
