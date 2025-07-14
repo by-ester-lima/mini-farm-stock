@@ -10,7 +10,7 @@ form.addEventListener('submit', async (e) => {
 
   const item = { nome, quantidade, categoria };
 
-  await fetch('http://localhost:5000/api/estoque', {
+  await fetch('http://127.0.0.1:5000/adicionar-item', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(item)
@@ -21,7 +21,7 @@ form.addEventListener('submit', async (e) => {
 });
 
 async function listarEstoque() {
-  const res = await fetch('http://localhost:5000/api/estoque');
+  const res = await fetch('http://127.0.0.1:5000/listar-itens');
   const dados = await res.json();
 
   lista.innerHTML = '';
