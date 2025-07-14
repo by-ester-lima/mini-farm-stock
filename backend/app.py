@@ -3,7 +3,7 @@ import json
 import os
 
 app = Flask(__name__)
-DATA_FILE = 'backend/estoque.json'
+DATA_FILE = 'estoque.json'
 
 # Cria o arquivo estoque.json se não existir
 if not os.path.exists(DATA_FILE):
